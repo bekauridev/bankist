@@ -1,5 +1,4 @@
-'use strict';
-
+"use strict"
 const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
 const btnCloseModal = document.querySelector('.btn--close-modal');
@@ -134,6 +133,7 @@ allSections.forEach(function (section) {
   // section.classList.add('section--hidden');
 });
 
+// Reveal images 
 const imgTargets = document.querySelectorAll('img[data-src]');
 
 const loadImg = function (entries, observer) {
