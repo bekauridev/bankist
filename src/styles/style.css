@@ -174,9 +174,9 @@ img {
   width: 100%;
   min-height: 100vh;
   display: block;
-  /* display: none; */
+
   z-index: 98;
-  background-color: #222;
+
   background-color: #fffffff3;
   padding: 22rem;
   transition: 0.4s;
@@ -189,8 +189,8 @@ img {
 .nav__links-mobile {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin: 0 auto 16px;
   list-style: none;
 }
 
@@ -246,7 +246,9 @@ img {
 /* HEADER */
 .header {
   padding: 0 3rem;
+  /* min-height: 80rem; */
   height: 100vh;
+  min-height: 70rem;
   display: flex;
   flex-direction: column;
   align-items: center;
